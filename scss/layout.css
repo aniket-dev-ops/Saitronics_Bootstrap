@@ -1,0 +1,73 @@
+@import url(vendor/layout.css);
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5rem;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  color: #1b1b1b;
+  color: black;
+  font-weight: 20px;
+  font-size: 15px; }
+
+.btnn, .buttonn {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; }
+
+.pricing-grid .bg-inverse h4 {
+  color: #fff;
+  font-weight: 500; }
+.pricing-grid .btn {
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px; }
+
+.navbar {
+  background: #292727; }
+  .navbar .navbar-brand {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-top: 0.5rem; }
+  .navbar .dropdown-menu {
+    background-color: aqua; }
+  .navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 300;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px; }
+    .navbar .navbar-nav .nav-link:hover {
+      background: #fff;
+      color: #78379d; }
+
+.hero {
+  background-color: rgba(75, 73, 72, 0.2); }
+
+.col-md-12 {
+  background-color: rgba(241, 189, 163, 0.2); }
+
+.container {
+  padding: 1%; }
+
+.hero1 {
+  background-color: rgba(75, 73, 72, 0.2); }
+
+.btn-color {
+  background-color: #252929;
+  color: beige;
+  border-radius: 10ch;
+  padding: 10px 60px 10px 60px; }
+
+/*# sourceMappingURL=layout.css.map */

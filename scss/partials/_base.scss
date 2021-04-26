@@ -1,0 +1,40 @@
+
+body {
+	font-family: $font-family;
+	line-height: $line-height;
+	padding: 0;
+	margin: 0;
+	background: $color-bg;
+	color: $color-font;
+	@include font-color(black);
+	
+	@include font-weight(20px);
+	@include font-size(15px);
+}
+.btnn
+{
+	background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+}
+
+.buttonn
+{
+	@extend .btnn;
+}
+.pricing-grid {
+	.bg-inverse h4 {
+		color: #fff;
+		font-weight: $font-bold;
+	}
+
+	.btn {
+		@include border-radius(2px);
+	}
+}

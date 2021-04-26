@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,MACA;EACI,gBAAgB,EAAE,qBAAqB",
+"sources": ["hero1.scss"],
+"names": [],
+"file": "hero1.css"
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  		<meta charset="utf-8">
+  		<title>Welcome to Saitronics</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta name="author" content="flip.hr">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/font-awesome.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+	</head>
+
+	<body>
+
+		
+
+		
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			
+	    	<div class="container">
+		    	<a class="navbar-brand" href="#">   <img src="logo.png" alt="Saitronics" style="width:70%;"> </a>
+		      	
+		      	<button class="navbar-toggler" data-toggle="collapse" data-target="#main-menu">
+		        	<span class="navbar-toggler-icon"></span>
+		      	</button>
+
+	      		<div class="collapse navbar-collapse" id="main-menu">
+	        		<ul class="navbar-nav ml-auto">
+			        	<li class="nav-item active">
+			            	<a class="nav-link" href="index1.html">Home</a>
+			          	</li>
+						  <li class="nav-item active">
+			            	<a class="nav-link" href="about.html">About</a>
+			          	</li>
+				</li>
+					<li class="nav-item active">
+					  <a class="nav-link" href="login.html">Login</a>
+					</li>
+				</li>
+				<li class="nav-item active">
+				  <a class="nav-link" href="register.html">Register</a>
+				</li>
+			  
+
+						  <li class="nav-item active">
+			            	<a class="nav-link" data-toggle="modal" data-target="#exampleModal">Feedback</a>
+			          	</li>
+	          			<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								products
+							  </a>
+					        <div class="dropdown-menu">
+					        	<a class="dropdown-item" href="#">PLC</a>
+					        	<a class="dropdown-item" href="#">Programmable panel</a>
+					        	<a class="dropdown-item" href="#">sensors</a>
+					        </div>
+					    </li>
+						
+						<li class="nav-item dropdown">
+					        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Services
+							  </a>
+					        <div class="dropdown-menu">
+					        	<a class="dropdown-item" href="#">SCALA</a>
+					        	<a class="dropdown-item" href="#">Automation</a>
+					        	<a class="dropdown-item" href="#">sensors</a>
+					        </div>
+					    </li>
+	          			<li class="nav-item">
+	            			<a class="nav-link" href="contact.html">Contact us</a>
+	          			</li>
+
+						  <li class="nav-item">
+	            			<button class="nav-link" id="mypopover"  data-toggle="popover" title="follow" data-html="true" data-content="<button>Facebook</button><br><button>Twitter</button>" href="#">follow</button>
+							
+						</li>
+
+
+	        		</ul>
+	      		</div><!-- .collapse -->
+      		</div><!-- .container -->
+    	</nav><!-- nav -->
+
+ 		<div class="container">
+			
+<section class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="buttonn" onclick="document.getElementById('contact-form').submit();">submit</a>
+                <a class="buttonn" onclick="document.getElementById('contact-form').submit();">clear</a>
+            
+            </div>
+            
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class=""></i>
+                    <p>Pune,  INDIA</p>
+                </li>
+
+                <li><i class=""></i>
+                    <p>+ 9170862887</p>
+                </li>
+
+                <li><i class=""></i>
+                    <p>contact@saitronics.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+			
+	</div>
+			
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="js/tether.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.site.js"></script>
+			
+	</body>
+</html>
